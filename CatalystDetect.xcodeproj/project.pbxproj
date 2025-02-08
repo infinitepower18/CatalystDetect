@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9C955F1D2D56D066004D6981 /* CatalystDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatalystDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C955F1D2D56D066004D6981 /* Catalyst Detect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catalyst Detect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		9C955F1E2D56D066004D6981 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C955F1D2D56D066004D6981 /* CatalystDetect.app */,
+				9C955F1D2D56D066004D6981 /* Catalyst Detect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C955F1C2D56D066004D6981 /* CatalystDetect */ = {
+		9C955F1C2D56D066004D6981 /* Catalyst Detect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C955F2C2D56D067004D6981 /* Build configuration list for PBXNativeTarget "CatalystDetect" */;
+			buildConfigurationList = 9C955F2C2D56D067004D6981 /* Build configuration list for PBXNativeTarget "Catalyst Detect" */;
 			buildPhases = (
 				9C955F192D56D066004D6981 /* Sources */,
 				9C955F1A2D56D066004D6981 /* Frameworks */,
@@ -64,11 +64,11 @@
 			fileSystemSynchronizedGroups = (
 				9C955F1F2D56D066004D6981 /* CatalystDetect */,
 			);
-			name = CatalystDetect;
+			name = "Catalyst Detect";
 			packageProductDependencies = (
 			);
 			productName = CatalystDetect;
-			productReference = 9C955F1D2D56D066004D6981 /* CatalystDetect.app */;
+			productReference = 9C955F1D2D56D066004D6981 /* Catalyst Detect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C955F1C2D56D066004D6981 /* CatalystDetect */,
+				9C955F1C2D56D066004D6981 /* Catalyst Detect */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C955F2C2D56D067004D6981 /* Build configuration list for PBXNativeTarget "CatalystDetect" */ = {
+		9C955F2C2D56D067004D6981 /* Build configuration list for PBXNativeTarget "Catalyst Detect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C955F2D2D56D067004D6981 /* Debug */,
