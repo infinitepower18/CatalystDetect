@@ -17,6 +17,24 @@ struct CatalystDetectApp: App {
                 .frame(minWidth: 350, minHeight: 300)
         }
         .windowResizabilityContentSize()
+        .commands {
+            CommandGroup(replacing: .help) {
+                Button {
+                    let url = "https://github.com/infinitepower18/CatalystDetect"
+                    NSWorkspace.shared.open(URL(string: url)!)
+                } label: {
+                    Text("GitHub")
+                }
+            }
+            CommandGroup(after: .appInfo) {
+                Button {
+                    let url = "https://github.com/infinitepower18/CatalystDetect/releases/latest"
+                    NSWorkspace.shared.open(URL(string: url)!)
+                } label: {
+                    Text("Check for Updates...")
+                }
+            }
+        }
     }
 }
 
