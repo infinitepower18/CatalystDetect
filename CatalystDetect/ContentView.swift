@@ -43,6 +43,9 @@ struct ContentView: View {
                 .padding()
         }
         .padding()
+        .onAppear {
+            runOtool()
+        }
     }
 
     private func handleDrop(_ providers: [NSItemProvider]) -> Bool {
@@ -119,6 +122,18 @@ struct ContentView: View {
 
         // Check for any references to iOS Support
         return output.contains("/System/iOSSupport/")
+    }
+
+    private func runOtool() {
+        let process = Process()
+        process.launchPath = "/usr/bin/otool"
+
+        let pipe = Pipe()
+        process.standardOutput = pipe
+        process.launch()
+
+        let data = pipe.fileHandleForReading.readDataToEndOfFile()
+        process.waitUntilExit()
     }
 
     private func extractAppIcon() {
