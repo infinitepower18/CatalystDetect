@@ -7,4 +7,6 @@ A simple program to detect if an app is a Mac Catalyst app.
 
 [Download latest version](https://github.com/infinitepower18/CatalystDetect/releases/latest)
 
-Requires macOS 11.0 or higher.
+Requires macOS 11.0 or higher. Runs on both Intel and Apple Silicon.
+
+This app requires the command line tools to be installed. If you don't have them installed, you will be prompted to install it upon launching the app.
